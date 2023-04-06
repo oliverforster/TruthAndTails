@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    colors: {
+      red: '#4ed7dd',
+      blue: '#f78208'
+    },
     extend: {
       fontFamily: {
         'body': ['"Open Sans"', 'sans-serif'],
